@@ -3,8 +3,8 @@ import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, pipeline
 
 
-st.set_page_config(page_title="Sentiment Analysis", page_icon="🔬", layout="wide")
-st.title("🔬 LLM Sentiment & Attention Analysis Dashboard")
+st.set_page_config(page_title="Sentiment Analysis", layout="wide")
+st.title("LLM Sentiment & Attention Analysis Dashboard")
 st.subheader("Türk Telekom - Project No 1")
 st.write("This application visualizes both the classification predictions of the DistilBERT model and analyzes the underlying syntactic & semantic attention weights (XAI) in real-time.")
 
